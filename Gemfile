@@ -33,8 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#make errors better looking
-gem 'better_errors', '~> 2.5', '>= 2.5.1'
+
 # bulma CSS
 gem 'bulma-rails', '~> 0.7.5'
 # simple form
@@ -56,10 +55,12 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  #make errors better looking
+  gem 'better_errors', '~> 2.5', '>= 2.5.1'
   # guard: Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.15', '>= 2.15.1'
   #Guard LiveReload: automatically reloads your browser when 'view' files are modified.
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', require: false
 end
 
 
