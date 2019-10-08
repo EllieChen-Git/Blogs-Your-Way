@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- The Youtube tutorial I followed: https://www.youtube.com/watch?v=XEkJ3vZb6-Q
+  (Not sure if it's a good one. Will update my thoughts after I completed this project lol)
+- The GitHub repo for this YouTube tutorial: https://github.com/justalever/demo_blog_rails
 
-Things you may want to cover:
+---
 
-* Ruby version
 
-* System dependencies
+#### Ruby Version - 2.6.3
 
-* Configuration
+#### Ruby Gems Used -
 
-* Database creation
+- [Better Errors](https://rubygems.org/gems/better_errors): Easier on the eyes when it comes to errors.
 
-* Database initialization
+- [Bulma-Rails](https://rubygems.org/gems/bulma-rails): A modern CSS framework based on Flexbox.
 
-* How to run the test suite
+- [Guard](https://github.com/guard/guard): Guard is a command line tool to easily handle events on file system modifications.
 
-* Services (job queues, cache servers, search engines, etc.)
+- [Guard LiveReload](https://github.com/guard/guard-livereload): Guard LiveReload automatically reloads your browser when 'view' files are modified.
+NOTE: This gem depends on the Guard gem. 
 
-* Deployment instructions
+- [Simple Form](https://github.com/plataformatec/simple_form): For simpler forms!
 
-* ...
+#### Database - Postgresql
+

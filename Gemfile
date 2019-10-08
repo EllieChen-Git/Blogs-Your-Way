@@ -34,9 +34,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 
-# bulma CSS
+# bulma CSS: A modern CSS framework based on Flexbox
 gem 'bulma-rails', '~> 0.7.5'
-# simple form
+# simple form: For simpler forms!
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 
 
@@ -55,11 +55,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  #make errors better looking
+  # make errors better looking
   gem 'better_errors', '~> 2.5', '>= 2.5.1'
-  # guard: Guard is a command line tool to easily handle events on file system modifications.
+  # Guard: Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.15', '>= 2.15.1'
-  #Guard LiveReload: automatically reloads your browser when 'view' files are modified.
+  # Guard LiveReload: automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', require: false
 end
 
