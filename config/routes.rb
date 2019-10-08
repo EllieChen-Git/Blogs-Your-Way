@@ -3,11 +3,14 @@ Rails.application.routes.draw do
 
   #GET "/posts" => read all posts
   get "/posts", to: "posts#index", as: "root"
+
+  
+  #GET/FORM "/posts/new" => form to create a new post
+  get "/posts/new", to: "posts#new", as: "new_post"
   #POST "/posts" => create posts
   post "/posts", to: "posts#create"
 
-  #GET/FORM "/posts/new" => form to create a new post
-  get "/posts/new", to: "posts#new", as: "new_post"
+
   #GET "/posts/:id" => read a post
   get "/posts/:id", to: "post#show", as: "post"
 
