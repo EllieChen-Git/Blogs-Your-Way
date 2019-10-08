@@ -1,15 +1,25 @@
 # README
 
+#### Purpose
+
+'Blogs Your Way' is a blog site made on Rails for practice purpose.
+
+---
+
+#### Resources
 - The Youtube tutorial I followed: https://www.youtube.com/watch?v=XEkJ3vZb6-Q
+
   (Not sure if it's a good one. Will update my thoughts after I completed this project lol)
+
 - The GitHub repo for this YouTube tutorial: https://github.com/justalever/demo_blog_rails
 
 ---
 
 
-#### Ruby Version - 2.6.3
+#### Ruby Version
+- 2.6.3
 
-#### Ruby Gems Used -
+#### Ruby Gems Used
 
 - [Better Errors](https://rubygems.org/gems/better_errors): Easier on the eyes when it comes to errors.
 
@@ -22,5 +32,6 @@ NOTE: This gem depends on the Guard gem.
 
 - [Simple Form](https://github.com/plataformatec/simple_form): For simpler forms!
 
-#### Database - Postgresql
+#### Database Used
+- Postgresql
 

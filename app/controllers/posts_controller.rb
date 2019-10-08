@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
     def index                #(1)
+        @posts = Post.all.order("created_at DESC")   #6: display all the posts in desending order
     end
 
     def new
@@ -14,6 +15,10 @@ class PostsController < ApplicationController
         else
             render "new"
         end
+    end
+
+    def show                           #(5) find the post we created by its :id
+        @post = Post.find(params[:id])
     end
 
     private            #(3)create private-post_params: coz we'll reuse post_params in other methods
