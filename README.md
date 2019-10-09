@@ -9,7 +9,7 @@
 #### Resources
 - The Youtube tutorial I followed: https://www.youtube.com/watch?v=XEkJ3vZb6-Q
 
-  (Not sure if it's a good one. Will update my thoughts after I completed this project lol)
+  (Not sure if it's a good one. Will update my thoughts after I complete this project lol)
 
 - The GitHub repo for this YouTube tutorial: https://github.com/justalever/demo_blog_rails
 

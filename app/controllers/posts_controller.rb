@@ -21,6 +21,22 @@ class PostsController < ApplicationController
         @post = Post.find(params[:id])
     end
 
+    def update                            #(6)
+        @post = Post.find(params[:id])
+                                        #check if form is updated: yes, go to the post; no, go to edit form
+
+        if @post.update(post_params)
+            redirect_to @post
+        else
+            render "edit"
+        end
+    end
+
+    def edit                               #(7)
+        @post = Post.find(params[:id])
+    end
+
+
     private            #(3)create private-post_params: coz we'll reuse post_params in other methods
                                    
     def post_params           
