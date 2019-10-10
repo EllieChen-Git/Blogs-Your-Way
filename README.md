@@ -21,17 +21,21 @@
 
 This tutorial is alright, but probably not a great one for beginners.
 
-<u>Pros:</u>
+:+1: <b>Pros:</b>
 
-1. With the help of Bulma-Rails (a gem), you don't have to worry about styling of the blog (The only thing you need to do is simply importing 'Bulma' in your scss file).
+1. It's a FREE 1-hr tutorial on YouTube!
 
-<u>Cons:</u>
+2. With the help of Bulma-Rails (a gem), you don't have to worry about styling of the blog (The only thing you need to do is simply importing 'Bulma' in your scss file).
 
-1.	The good thing is also the bad thing. As he used heaps functionalities from Bulma-Rails to create forms, you wouldn’t know how to create forms properly from scratch. 
+3. You can have a fully functional blog site after following through.
 
-2. Initially, he didn't install some Ruby gems correctly, so you would need to go back to fix some issues there (Took me about 15-20mins to fix them. Would be nice if he could have edited that part of the video.)
+:-1: <b>Cons:</b>
 
-3. He didn't explain some code clearly… but probably that’s how Rails magic works? lol
+1.	The good thing is also the bad thing. As the tutor used heaps functionalities from Bulma-Rails to create forms, you wouldn’t know how to create forms properly from scratch. 
+
+2. Initially, the tutor didn't install some Ruby gems correctly, so you would need to go back to fix some issues there (Took me about 15-20mins to fix them. Would be nice if he could have edited that part of the video.)
+
+3. The tutor didn't explain some code clearly… but probably that’s how Rails magic :sparkles:  works? lol 
 
 
 ---
@@ -40,7 +44,7 @@ This tutorial is alright, but probably not a great one for beginners.
 ##### :apple: Ruby Version
 - 2.6.3
 
-##### :gem: Ruby Gems Used
+##### :gem: Ruby Gems
 
 - [Better Errors](https://rubygems.org/gems/better_errors): Easier on the eyes when it comes to errors.
 
@@ -52,5 +56,5 @@ This tutorial is alright, but probably not a great one for beginners.
 
 - [Simple Form](https://github.com/plataformatec/simple_form): For simpler forms!
 
-##### :key: Database Used
+##### :key: Database
 - PostgreSQL
