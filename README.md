@@ -1,11 +1,12 @@
 # Blogs Your Way
+---
 
----
----
 ### Links
 
-- [Blogs Your Way]()
+- [Blogs Your Way](https://shrouded-dusk-24263.herokuapp.com/)
 - [GitHub Repository](https://github.com/EllieChen-Git/Blogs-Your-Way)
+
+---
 
 ### Purpose
 
