@@ -1,32 +1,28 @@
-<!-- On Step #(6-7):
+<%#  On Step #(6-7):
 - Create the partial _form
-- move form code #(the code below) from new.html.erb to here
-- on edit & new.html.erb: render "form"
--->
-
-
+- Move 'form code' #(the code below) from new.html.erb to _from.html.erb (here)
+- On edit & new.html.erb: render "form"
+%>
 
 <div class="section">
     <%= simple_form_for @post do |f|%>
-<%# title column begins%>
+
+<%# title column %>
     <div class="field">
         <div class="control">
             <%= f.input :title, input_html: { class: "input" }, wrapper: false, label_html: {class: "label" }%>
         </div>
     </div>
-<%# title column ends%>
 
-<%# content column begins%>
+<%# content column %>
     <div class="field">
         <div class="control">
             <%= f.input :content, input_html: { class: "textarea" }, wrapper: false, label_html: {class: "label" }%>
         </div>
     </div>
-<%# content column ends%>
 
-<%# submit button begins%>
+<%# submit button %>
     <%= f.button :submit, class: "button-is-primary" %>
-<%# submit button ends%>
 
     <% end %>
 </div>

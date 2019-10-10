@@ -2,14 +2,13 @@
 
 <section class="session">
     <div class="container">
+    <hr />
         <nav class="level">
-        <!-- left side -->
+<!-- left side -->
             <div class="level-left">
-                <p class="level-item">
-                    <strong>Actions</strong>
-                </p>
+                <p class="level-item"></p>
             </div>
-        <!-- left side -->
+<!-- right side -->
             <div class="level-right">
                 <p class="level-item">
                     <%= link_to "Edit Post", edit_post_path(@post), class: "button" %>
@@ -19,15 +18,28 @@
                 </p>
             </div>
         </nav>
-        <hr />
+
 
         <div class="content">
         <%= @post.content%>
         </div>
-
-
     </div>
 </section>
 
 
-<section class="comments"></section>
+<section class="comments">          <!-- #(13)-->
+    <div class="container">
+    <hr />
+        <h2 class="subtitle is-3">Comments: <span><%= @post.comments.count %></span></h2>
+
+        <!-- #(13): go to browser to delete any previous posts. otherwise, will cause errors-->
+        <%= render @post.comments %>
+        
+        <div class="comment-form">
+        <hr />
+            <h3 class="subtitle is-3">Leave a Comment</h3>
+            <%= render "comments/form" %>
+            <!-- #(13): go to browser to create new post-->
+        </div>
+    </div>
+</section>

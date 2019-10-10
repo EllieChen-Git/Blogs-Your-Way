@@ -1,5 +1,3 @@
-<!-- <h1 class="title">Blog Index</h1>         -->
-
 <%= content_for :page_title, "Blogs Your Way" %>
 
 <section class="session">
@@ -8,17 +6,20 @@
             <div class="card">
                 <div class="card-content">
                     <div class="media">
+<%# Post Title %>
                         <div class="media-content">
                             <p class="title is-4"><%= link_to post.title, post %></p>
                         </div>
                     </div>
+<%# Post Content %>
                     <div class="content">
                         <%= post.content %>
                     </div>
-                 <!--   <div class="comment-count">
-                        <span class="tag is-rounded"><%#comment count%></span>
+<%# Comment Count %>
+                    <div class="comment-count">
+                        <span class="tag is-rounded"><%= post.comments.count %> comments</span>
                     </div>
-                -->
+
                 </div>  
             </div>
         <% end %>
