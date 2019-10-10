@@ -47,22 +47,6 @@ This tutorial is not bad, but probably not a great one for beginners:
 3. The tutor didn't explain some code clearly... but probably that’s how Rails magic :sparkles: works? LOL 
 
 ---
-
-### Screenshots
-
-- Home Page
-![Home Page](./docs/home.JPG)
-
-- Create a New Post
-![Create a New Post](./docs/create_new_post.JPG)
-
-- Edit a Post
-![Edit a Post](./docs/edit_post.JPG)
-
-- Leave & Delete a Comment
-![Leave & Delete a Comment](./docs/leave&delete_comment.JPG)
-
----
 ### Specs
 
 ##### :apple: Ruby Version
@@ -82,3 +66,23 @@ This tutorial is not bad, but probably not a great one for beginners:
 
 ##### :key: Database
 - PostgreSQL
+
+---
+
+### Screenshots
+
+- Home Page
+
+![Home Page](./docs/home.JPG)
+
+- Create a New Post
+
+![Create a New Post](./docs/create_new_post.JPG)
+
+- Edit a Post
+
+![Edit a Post](./docs/edit_post.JPG)
+
+- Leave & Delete a Comment
+
+![Leave & Delete a Comment](./docs/leave&delete_comment.JPG)
